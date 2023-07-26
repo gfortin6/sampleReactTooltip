@@ -1,0 +1,23 @@
+@use '../vars/fonts';
+
+.logout-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  border: 2px solid #cccccc;
+}
+
+.logout-title {
+  font-family: fonts.$title-bold;
+  font-size: 7rem;
+  text-align: center;
+}
+
+.logout-msg {
+  margin-top: 4rem;
+  text-align: center;
+}
+.animation {
+  height: 60vh;
+}

@@ -1,0 +1,9 @@
+@use '../bootstrap-override.scss';
+
+.custom-badge {
+  padding: 0px 10px !important;
+  margin-right: 0.5em !important;
+}
+.custom-badge-delete {
+  margin-top: -3px;
+}

@@ -1,0 +1,63 @@
+@use '../vars/colors';
+
+.rootContainer {
+  height: calc(100vh - 60px);
+  padding: 12px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.ps-sidebar-container {
+  background-color: colors.$dark-grey !important;
+}
+.ps-menu-button,
+.ps-menu-buttont:hover,
+.ps-menu-button:active,
+.ps-menu-button:focus {
+  background-color: colors.$dark-grey !important;
+  color: colors.$light-grey !important;
+}
+.ps-menu-icon {
+  background-color: colors.$primary;
+  color: colors.$dark-grey;
+  border-radius: 5px;
+}
+.ps-menuitem-root,
+.ps-menuitem-root:hover,
+.ps-menuitem-root:active,
+.ps-menuitem-root:focus {
+  background-color: colors.$dark-grey !important;
+}
+
+.menuIcon {
+  color: colors.$light-grey !important;
+  font-size: 1.25em;
+}
+.userTextOpen {
+  font-size: 0.75em;
+  color: colors.$light-grey !important;
+  margin-left: 12px;
+}
+.userTextCollapsed {
+  font-size: 1em;
+  color: colors.$light-grey !important;
+}
+.user {
+  // padding-left: 20px;
+  padding: 0px 20px 0.5rem 20px;
+  border-bottom: 1px solid #4d5053;
+}
+.closemenu {
+  margin-bottom: 1rem;
+}
+.bottomNav {
+  border-top: 1px solid #4d5053;
+  border-bottom: 1px solid #4d5053;
+  padding: 0.5rem 0px;
+}
+.clickable {
+  cursor: pointer;
+}
+.menuContent {
+  padding: 0.5rem 0px;
+}

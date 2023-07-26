@@ -1,0 +1,52 @@
+@use './vars/colors';
+
+.btn-primary,
+.form-check-input:checked {
+  background-color: colors.$primary !important;
+  border-color: colors.$primary !important;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+  background-color: colors.$dark-primary !important;
+  border-color: colors.$dark-primary !important;
+}
+
+.dropdown-toggle,
+.dropdown-toggle:hover,
+.dropdown-toggle:active,
+.dropdown-toggle:focus {
+  background-color: transparent !important;
+  border-color: colors.$light-grey !important;
+  color: colors.$black !important;
+}
+
+.form-control:focus,
+.form-control:hover,
+.form-control:focus {
+  border-color: colors.$primary !important;
+}
+
+.form-check-input:active,
+.form-check-input:focus,
+.form-check-input:hover {
+  border-color: colors.$primary !important;
+}
+
+.page-item.active {
+  background-color: colors.$primary !important;
+  border-color: colors.$primary !important;
+}
+
+.page-link,
+.page-link:hover,
+.page-link:active,
+.page-link:focus {
+  color: colors.$primary !important;
+}
+
+.dropdown-item:active {
+  background-color: colors.$primary !important;
+  border-color: colors.$primary !important;
+}

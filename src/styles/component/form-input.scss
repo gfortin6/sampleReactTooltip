@@ -1,0 +1,9 @@
+@use 'date-picker';
+@use 'dropdown';
+@use 'typeahead-override';
+//External
+@import 'react-bootstrap-typeahead/css/Typeahead.css';
+
+.detail_title_alignment {
+  width: 175px;
+}
